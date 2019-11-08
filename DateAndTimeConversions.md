@@ -27,6 +27,7 @@
 <tr><td>select convert(varchar, getdate(), 111)</td><td>39081</td></tr>
 <tr><td>select convert(varchar, getdate(), 112)</td><td>20061230</td></tr>  
 </table>
+
 ## Formato Hora
 <table>
   <tr>
