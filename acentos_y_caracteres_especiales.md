@@ -1,5 +1,6 @@
--- Representación en CHAR para letras con acento y caracteres especiales en SQL Server
+# Representación en CHAR para letras con acento y caracteres especiales en SQL Server
 
+```sql
 -- Letras minúsculas con acento:
 -- á → CHAR(225)
 -- é → CHAR(233)
@@ -37,5 +38,5 @@ SELECT
     CHAR(209) AS 'Ñ',
     CHAR(64)  AS '@',
     CHAR(47)  AS '/',
-    CHAR(92)  AS '\',
+    CHAR(92)  AS '\\',
     CHAR(35)  AS '#';
